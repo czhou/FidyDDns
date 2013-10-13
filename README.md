@@ -2,7 +2,7 @@ FidyDDns
 ========
 
 基于Zend Framework实现的一个Dnspod DDNS客户端。
-因为只用到了Zend的HTTPClient组件，所以你也可以用curl等函数替换掉，来摆脱对ZF的依赖。
+因为只用到了Zend_Http_Client组件，所以你也可以用curl等函数替换掉，来摆脱对ZF的依赖。
 
 使用方法举例：
 
