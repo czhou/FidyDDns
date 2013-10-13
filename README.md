@@ -1,4 +1,4 @@
-FidyDDns
+FidyDdns
 ========
 
 基于Zend Framework实现的一个Dnspod DDNS客户端。
@@ -12,5 +12,7 @@ $ddns = new My_Dnspod(); //请先修改类文件中的登陆用户名和密码
 
 $ddns->getDomainInfo("xxx.com"));//获取域名基本信息
 
-$ddns->setSubdomainIP("blog",$ddns->my_ip);//给二级域名设置新ip（函数会自动判断域名ip是否发生变化，没变就不提交变更请求）
+$ddns->setSubdomainIP("blog",$ddns->my_ip);//给二级域名blog.xxx.com设置新ip（函数会自动判断域名ip是否发生变化，没变就不提交变更请求）
 ```
+
+把上面的脚本放置到机器的crontab中即可。
