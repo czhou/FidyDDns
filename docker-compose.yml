@@ -1,0 +1,9 @@
+name: FidyDdns
+services:
+  mysql:
+    container_name: client
+    restart: on-failure
+    volumes:
+      - ./config.json:/config.json
+      - ./myIp.sh:/myIp.sh:ro
+    image: newfuture/ddns

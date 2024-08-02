@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ddns.newfuture.cc/schema/v2.8.json",
+  "id": "513782",
+  "token": "dcf047ccba32783f1191b50cd78b4e9f",
+  "dns": "dnspod",
+  "ipv4": ["musen-office.fidy.net"],
+  "ipv6": [],
+  "index4": "shell:/myIp.sh",
+  "index6": "default",
+  "ttl": null,
+  "proxy": null,
+  "debug": true,
+  "cache": false
+}
