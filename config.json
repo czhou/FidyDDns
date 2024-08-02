@@ -9,6 +9,6 @@
   "index6": "default",
   "ttl": null,
   "proxy": null,
-  "debug": true,
-  "cache": false
+  "debug": false,
+  "cache": true
 }
