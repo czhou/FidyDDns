@@ -3,7 +3,14 @@
   "id": "111222",
   "token": "xxxyyyzzz",
   "dns": "dnspod",
-  "ipv4": ["musen-office.fidy.net","www.xingze-sport.cn","*.services.xingze-sport.cn"],
+  "ipv4": [
+    "musen-office.fidy.net",
+    "xingze-sport.cn",
+    "www.xingze-sport.cn",
+    "*.services.xingze-sport.cn",
+    "admin.xingze-sport.cn",
+    "seller.xingze-sport.cn"
+  ],
   "ipv6": [],
   "index4": "shell:/myIp.sh",
   "index6": "default",
