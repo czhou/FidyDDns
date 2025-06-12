@@ -1,7 +1,7 @@
 name: FidyDdns
 services:
   client:
-    container_name: client
+    container_name: ddns-client
     restart: on-failure
     volumes:
       - ./config.json:/config.json
