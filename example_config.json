@@ -1,15 +1,21 @@
 {
   "$schema": "https://ddns.newfuture.cc/schema/v2.8.json",
-  "id": "111222",
-  "token": "xxxyyyzzz",
+  "id": "122334",
+  "token": "xxxxxxx",
   "dns": "dnspod",
   "ipv4": [
+    "musen.uiu.cc",
+    "musen.jingpinbz.com",
     "musen-office.fidy.net",
-    "xingze-sport.cn",
-    "www.xingze-sport.cn",
-    "*.services.xingze-sport.cn",
-    "admin.xingze-sport.cn",
-    "seller.xingze-sport.cn"
+    "www.testing.fidy.net",
+    "*.services.external.testing.fidy.net",
+    "*.frontend.external.testing.fidy.net",
+    "www.testing.xingze-sport.cn",
+    "*.services.external.testing.xingze-sport.cn",
+    "*.frontend.external.testing.xingze-sport.cn",
+    "www.testing.yinyuedaren.com",
+    "*.services.external.testing.yinyuedaren.com",
+    "*.frontend.external.testing.yinyuedaren.com"
   ],
   "ipv6": [],
   "index4": "shell:/myIp.sh",
